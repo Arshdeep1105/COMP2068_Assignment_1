@@ -1,0 +1,40 @@
+//- 
+ File Name: projects.pug
+ Author's name:  Arshdeep Singh
+ Website name: Personal Portfolio
+ File description: This file contains the projects information of the author which he created in past.
+//
+include layout.pug
+html
+  head
+   title #{title}
+   body
+       <div>
+           <h1 class = "text-center"><u><b>My Projects</b></u></h1><br><br><br><br>
+       </div>
+       <div class = "container-fluid">
+           // row for projects 
+           <div class = "row">
+               <div class = "col-lg-4 col-md-5 col-12">
+                   <div class="card-body">
+                       <h2 class="card-title"><b>Gaming Problem Solution</b></h2>
+                       <h3 class="card-text">It was a php project and we made it in a team of four students.In it we have connected database that save all our data.It was a solution app so, user have to register the problem </h3>
+                   </div>
+               </div>
+               <div class = "col-lg-4 col-md-3 col-12">                        
+                   <div class="card-body">
+                       <h2 class="card-title"><b>Drink Management</b></h2>
+                       <h3 class="card-text">It was ASP.net project made by me and it is my favourite project of all time.It was a project based on the wholesale of drinks wher i save Dealer info and Drinks Info </h3>
+                   </div>
+               </div>
+               <div class = "col-lg-4 col-md-5 col-12">
+                   <div class="card-body">
+                       <h2 class="card-title"><b>Scramble Points Gerneator</b></h2>
+                       <h3 class="card-text">I made a colorfull Scramble point gernerator in this project with the help of JavaFx. it was very difficult project but i was able to made it on time</h3>    
+                   </div>
+               </div>
+           </div>
+       </div> 
+       <div style ="margin-top:250">
+       </div>
+include partials/footer.pug
